@@ -8,9 +8,18 @@ body {
   font-family: Tahoma, sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 10px 0;
+}
+
 .repos-container {
   max-width: 800px;
-  margin: auto;
+  margin: 2rem auto;
+
 }
 
 .get-repos {

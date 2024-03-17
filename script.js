@@ -36,7 +36,7 @@ getBtn.addEventListener("click", () => {
 
         for (let i = 0; i < showRepo.length; i++) {
           let repoListItem = document.createElement("li");
-          repoListItem.append(showRepo[i].name);
+          repoListItem.append(`${i + 1}) ${showRepo[i].name}`);
           repoUl.append(repoListItem);
         }
       });
