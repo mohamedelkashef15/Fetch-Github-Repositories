@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+}
+
+.repos-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.get-repos {
+  padding: 30px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* f44336 */
+
+.get-repos input {
+  width: 100%;
+  padding: 20px 15px;
+  border: none;
+  margin-right: 15px;
+}
+
+.get-repos input:focus {
+  outline: 2px solid #f44336;
+}
+
+.get-repos .get-button {
+  width: 150px;
+  background-color: #f44336;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.show-data {
+  padding: 20px 30px;
+  background-color: #e0e0e0;
+}
